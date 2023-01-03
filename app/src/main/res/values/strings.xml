@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MEDICARE</string>
+    <string name="username">   Enter your username</string>
+    <string name="password">   Enter your password</string>
+    <string name="email">  Enter your email address</string>
+    <string name="phone">  Enter your phone number</string>
+    <string name="fullname">  Enter your full name</string>
+</resources>
