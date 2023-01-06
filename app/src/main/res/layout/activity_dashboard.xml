@@ -23,7 +23,7 @@
             android:id="@+id/txtWelcome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/inter_bold"
+            android:fontFamily="sans-serif-black"
             android:text="Welcome!"
             android:textColor="@color/white"
             android:textSize="22dp"
