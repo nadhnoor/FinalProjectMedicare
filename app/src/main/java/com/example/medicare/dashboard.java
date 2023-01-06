@@ -15,11 +15,13 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class dashboard extends AppCompatActivity {
 
     TextView fullname;
     TextView user_nameInGoogle;
-    ImageView userPhotoGoogle;
+    CircleImageView userPhotoGoogle;
     GoogleSignInClient mGoogleSignInClient; //From Gradle Build Google Services Auth
     private View decorView;
 
