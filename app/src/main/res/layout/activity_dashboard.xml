@@ -23,7 +23,7 @@
             android:id="@+id/txtWelcome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/inter_bold"
             android:text="Welcome!"
             android:textColor="@color/white"
             android:textSize="22dp"
@@ -34,7 +34,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/numans"
-            android:text="Jelita Inesya Alifia Nadhila"
             android:textColor="@color/white"
             android:textSize="15dp" />
     </LinearLayout>
@@ -93,8 +92,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.183" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
+    <ImageView
+        android:id="@+id/photo_user"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:background="@drawable/ic_userprofile"
@@ -103,7 +102,8 @@
         app:layout_constraintHorizontal_bias="0.91"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.039" />
+        app:layout_constraintVertical_bias="0.039"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -121,24 +121,27 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/ic_lab"
             android:foregroundGravity="center"
             android:orientation="horizontal"
-            android:background="@drawable/ic_lab"/>
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_medicine"
             android:layout_gravity="center"
-            android:layout_marginLeft="40dp"/>
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/ic_medicine"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/ic_history"
             android:foregroundGravity="center"
             android:orientation="horizontal"
-            android:background="@drawable/ic_history"
-            android:layout_marginLeft="40dp"/>
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -157,7 +160,8 @@
             android:layout_width="28dp"
             android:layout_height="28dp"
             android:layout_gravity="center"
-            android:background="@drawable/ic_profile"/>
+            android:background="@drawable/ic_profile"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     </LinearLayout>
 
@@ -177,8 +181,9 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
+            android:layout_marginTop="5dp"
             android:background="@drawable/ic_historybawah"
-            android:layout_marginTop="5dp"/>
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     </LinearLayout>
 
@@ -199,7 +204,8 @@
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_marginRight="10dp"
-            android:background="@drawable/ic_home" />
+            android:background="@drawable/ic_home"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

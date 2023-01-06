@@ -2,10 +2,12 @@ package com.example.medicare;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class registrasiPage extends AppCompatActivity {
 
@@ -32,6 +34,57 @@ public class registrasiPage extends AppCompatActivity {
                 decorView.setSystemUiVisibility(hideSystemBar());
         });
 
+        //BUTTON SIGN UP --> EXECUTE VALIDATE INSERT DATA
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Creating User Entity
+                UserEntity userEntity = new UserEntity();
+                userEntity.setFullname(full_name.getText().toString());
+                userEntity.setPhone(phone.getText().toString());
+                userEntity.setEmail(email.getText().toString());
+                userEntity.setUsername(username.getText().toString());
+                userEntity.setPassword(password.getText().toString());
+                if (validateInput(userEntity)){
+                    //Do insert operation
+                    UserDatabase userDatabase = UserDatabase.getUserDatabase(getApplicationContext());
+                    UserDAO userDAO = userDatabase.userDAO();
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            //Register User
+                            userDAO.RegisterUser(userEntity);
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    Toast.makeText(getApplicationContext(),"User Registered!", Toast.LENGTH_SHORT).show();
+                                    Intent registerUser = new Intent(getApplicationContext(), loginPage.class);
+                                    startActivity(registerUser);
+                                }
+                            });
+
+                        }
+                    }).start();
+
+                }else{
+                    Toast.makeText(getApplicationContext(),"Fill all fields!",Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        });
+
+    }
+
+    //CREATE INPUT VALIDATION
+    private Boolean validateInput(UserEntity userEntity){
+        if(userEntity.getFullname().isEmpty() |
+                userEntity.getPhone().isEmpty() |
+                userEntity.getEmail().isEmpty() |
+                userEntity.getUsername().isEmpty() |
+                userEntity.getPassword().isEmpty()){
+            return false;
+        }
+        return true;
     }
 
     //HIDE STATUS BAR AND ACTION BAR
