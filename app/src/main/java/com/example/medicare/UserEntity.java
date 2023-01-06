@@ -26,10 +26,6 @@ public class UserEntity{
     @ColumnInfo(name = "input_email")
     String email;
 
-    public Integer getId() {
-        return id;
-    }
-
     public void setId(Integer id) {
         this.id = id;
     }
