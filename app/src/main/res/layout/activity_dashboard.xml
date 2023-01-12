@@ -86,15 +86,16 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/numans"
         android:text="Our features!"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.173"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183" />
+        app:layout_constraintVertical_bias="0.182" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btn_profile"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:background="@drawable/ic_userprofile"
@@ -108,37 +109,37 @@
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="317dp"
-        android:layout_height="117dp"
+        android:layout_height="118dp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.254">
+        app:layout_constraintVertical_bias="0.252">
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/ic_lab"
             android:foregroundGravity="center"
-            android:orientation="horizontal"
-            android:background="@drawable/ic_lab"/>
+            android:orientation="horizontal" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_medicine"
             android:layout_gravity="center"
-            android:layout_marginLeft="40dp"/>
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/ic_medicine" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:foregroundGravity="center"
-            android:orientation="horizontal"
+            android:layout_marginLeft="40dp"
             android:background="@drawable/ic_history"
-            android:layout_marginLeft="40dp"/>
+            android:foregroundGravity="center"
+            android:orientation="horizontal" />
     </LinearLayout>
 
     <LinearLayout
@@ -154,6 +155,7 @@
         app:layout_constraintVertical_bias="0.976">
 
         <ImageButton
+            android:id="@+id/btn_profile2"
             android:layout_width="28dp"
             android:layout_height="28dp"
             android:layout_gravity="center"
@@ -200,6 +202,96 @@
             android:layout_gravity="center"
             android:layout_marginRight="10dp"
             android:background="@drawable/ic_home" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/numans"
+        android:text="Promo Menarik"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.392" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523">
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:fillViewport="true"
+            android:autoStart="true"
+            android:flipInterval="2000"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:background="@drawable/banner_iklan1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/banner_iklan2"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/banner_iklan3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+            </LinearLayout>
+        </ViewFlipper>
+
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/numans"
+        android:text="Baca Artikel Baru"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+    <ImageButton
+        android:id="@+id/btn_artikel"
+        android:layout_width="330dp"
+        android:layout_height="145dp"
+        android:background="@drawable/artikel_dash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
