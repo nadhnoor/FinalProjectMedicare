@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backprofile"
+    tools:context=".profile">
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="Hello!"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/numans"
+            android:text="Jelita Ines Alifia Noor"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_avatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="365dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656">
+
+        <TextView
+            android:id="@+id/NameUserProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textColor="#CF1A4D"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtNameProfile"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/btn_data_profile"
+            android:inputType="textPersonName"
+            android:hint="Jelita Inesya Alifia Nadhila"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:paddingLeft="10dp"/>
+
+
+        <TextView
+            android:id="@+id/UsernameUserProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:inputType="textPersonName"
+            android:text="Username"
+            android:textColor="#CF1A4D"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtUsernameProfile"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/btn_data_profile"
+            android:inputType="textPersonName"
+            android:hint="JelitaInesFiaNoor"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/EmailProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:text="Email"
+            android:textColor="#CF1A4D"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtEmailProfile"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/btn_data_profile"
+            android:inputType="textPersonName"
+            android:hint="jelitaines.alifianoor@gmail.com"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/nunito_sans_semibold"/>
+
+        <TextView
+            android:id="@+id/PhoneNumberProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:text="Phone Number"
+            android:textColor="#CF1A4D"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtPhoneNumberProfile"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/btn_data_profile"
+            android:inputType="textPersonName"
+            android:hint="(+62) 81234567891"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:paddingLeft="10dp"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnLogoutProfile"
+        android:layout_width="365dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
