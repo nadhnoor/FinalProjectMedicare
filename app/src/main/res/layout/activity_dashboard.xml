@@ -128,6 +128,7 @@
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
+            android:id="@+id/shopmedicine"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
