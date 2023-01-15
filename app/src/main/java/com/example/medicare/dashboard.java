@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.SearchView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -27,21 +28,39 @@ public class dashboard extends AppCompatActivity {
     GoogleSignInClient mGoogleSignInClient; //From Gradle Build Google Services Auth
     private View decorView;
 
+
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        //button
+        //button Shop Med
         ImageButton btShop = findViewById(R.id.shopmedicine);
         btShop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent back3 = new Intent(dashboard.this, AMedicine_Menu.class);
-                startActivity(back3);
+                Intent menu = new Intent(dashboard.this, AMedicine_Menu.class);
+                startActivity(menu);
             }
         });
+
+        //button Lab Med
+        ImageButton btLab = findViewById(R.id.labmedicine);
+        btLab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(dashboard.this, SearchActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //button History
+
+
+
+
 
         //GETTER-SETTER THE STRING DATA FROM DATABASE USER TO INPUT THE NAME USER
         fullname = findViewById(R.id.txtName);

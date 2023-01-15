@@ -10,10 +10,6 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        // GPS
-        maven {
-            url "https://jitpack.io"
-        }
     }
 }
 rootProject.name = "MEDICARE"
