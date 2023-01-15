@@ -164,7 +164,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Obat Bebas Terbatas (Biru)" />
+            android:text="Obat Keras (Merah)" />
     </LinearLayout>
 
     <Button
