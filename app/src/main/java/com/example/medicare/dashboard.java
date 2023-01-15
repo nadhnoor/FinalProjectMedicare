@@ -3,9 +3,11 @@ package com.example.medicare;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -30,6 +32,16 @@ public class dashboard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+
+        //button
+        ImageButton btShop = findViewById(R.id.shopmedicine);
+        btShop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent back3 = new Intent(dashboard.this, AMedicine_Menu.class);
+                startActivity(back3);
+            }
+        });
 
         //GETTER-SETTER THE STRING DATA FROM DATABASE USER TO INPUT THE NAME USER
         fullname = findViewById(R.id.txtName);
