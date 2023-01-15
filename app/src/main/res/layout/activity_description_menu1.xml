@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background1"
+    tools:context=".Description_Menu1">
+
+
+    <ImageButton
+        android:id="@+id/back1"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/ic_vector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/rect1"
+        android:layout_width="285dp"
+        android:layout_height="339dp"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_ellipse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/pict_pc"
+        android:layout_width="259dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/ic_paracetamol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/paracetamol"
+        android:layout_width="121dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Paracetamol"
+        android:textColor="#2B3467"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pict_pc" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="98dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Description"
+        android:textColor="#2B3467"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paracetamol" />
+
+    <TextView
+        android:id="@+id/desc_pc1"
+        android:layout_width="348dp"
+        android:layout_height="139dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Paracetamol is a commonly used medicine that can help treat pain and reduce high temperature (fever). It's typically used to relieve mild or moderate pain, such as headaches, toothaches or sprains, and reduce fevers caused by illnesses such as colds and flu."
+        android:justificationMode="inter_word"
+        android:textColor="#2B3467"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc1" />
+
+    <TextView
+        android:id="@+id/pack1"
+        android:layout_width="81dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Packaging"
+        android:textColor="#2B3467"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc_pc1" />
+
+    <TextView
+        android:id="@+id/pack_pc"
+        android:layout_width="202dp"
+        android:layout_height="20dp"
+        android:text="Box, 10 strips @ 10 caplets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pack1" />
+
+    <TextView
+        android:id="@+id/opt1"
+        android:layout_width="177dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Select Purchase Options"
+        android:textColor="#2B3467"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pack_pc" />
+
+    <TextView
+        android:id="@+id/opt_pc"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="76dp"
+        android:text="Beli Sekali \n Rp5.200 per Strip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt1" />
+
+    <Button
+        android:id="@+id/buy1"
+        android:layout_width="161dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/ic_kotak"
+        android:fontFamily="@font/inter_medium"
+        android:text="Buy"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

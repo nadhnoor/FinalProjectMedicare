@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    tools:context=".AMedicine_Menu">
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/ic_vector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/Medicine"
+        android:layout_width="116dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="@font/numans"
+        android:text="Medicine"
+        android:textColor="#2B3467"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+
+    <Button
+        android:id="@+id/btParacetamol"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="60dp"
+        android:background="@drawable/ic_kotak2"
+        android:fontFamily="@font/inter_medium"
+        android:text="More"
+        android:textAllCaps="false"
+        android:textColor="#D41249"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Medicine"
+        app:layout_constraintVertical_bias="0.287"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btPanadol"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:background="@drawable/ic_kotak2"
+        android:fontFamily="@font/inter_medium"
+        android:text="More"
+        android:textAllCaps="false"
+        android:textColor="#D41249"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toEndOf="@+id/btParacetamol"
+        app:layout_constraintTop_toBottomOf="@+id/Medicine"
+        app:layout_constraintVertical_bias="0.287"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btOBH"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="64dp"
+        android:background="@drawable/ic_kotak2"
+        android:fontFamily="@font/inter_medium"
+        android:text="More"
+        android:textAllCaps="false"
+        android:textColor="#D41249"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btParacetamol"
+        app:layout_constraintVertical_bias="0.433"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btKonidin"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/ic_kotak2"
+        android:fontFamily="@font/inter_medium"
+        android:text="More"
+        android:textAllCaps="false"
+        android:textColor="#D41249"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.713"
+        app:layout_constraintStart_toEndOf="@+id/btOBH"
+        app:layout_constraintTop_toBottomOf="@+id/btPanadol"
+        app:layout_constraintVertical_bias="0.433"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btAntangin"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="60dp"
+        android:background="@drawable/ic_kotak2"
+        android:fontFamily="@font/inter_medium"
+        android:text="More"
+        android:textAllCaps="false"
+        android:textColor="#D41249"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btOBH"
+        app:layout_constraintVertical_bias="0.872"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btAmoxicilin"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:background="@drawable/ic_kotak2"
+        android:fontFamily="@font/inter_medium"
+        android:text="More"
+        android:textAllCaps="false"
+        android:textColor="#D41249"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toEndOf="@+id/btAntangin"
+        app:layout_constraintTop_toBottomOf="@+id/btKonidin"
+        app:layout_constraintVertical_bias="0.871"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/im_paracetamol"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_paracetamol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Medicine" />
+
+    <ImageView
+        android:id="@+id/im_panadol"
+        android:layout_width="115dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/ic_panadol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/im_paracetamol"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/im_obh"
+        android:layout_width="103dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_obh"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btParacetamol" />
+
+    <ImageView
+        android:id="@+id/im_konidin"
+        android:layout_width="114dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_konidin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/im_obh"
+        app:layout_constraintTop_toBottomOf="@+id/btPanadol" />
+
+    <ImageView
+        android:id="@+id/im_antangin"
+        android:layout_width="115dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_antangin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btOBH" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="117dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/ic_amoxicilin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/im_antangin"
+        app:layout_constraintTop_toBottomOf="@+id/btKonidin" />
+
+    <TextView
+        android:id="@+id/jd_pc"
+        android:layout_width="83dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="64dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Paracetamol"
+        android:textColor="#2B3467"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_paracetamol" />
+
+    <TextView
+        android:id="@+id/desc_pc"
+        android:layout_width="140dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/numans"
+        android:justificationMode="inter_word"
+        android:text="Paracetamol is a commonly used medicine that can help treat pain and reduce a high temp..."
+        android:textColor="#2B3467"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/btParacetamol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jd_pc"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/jd_pn"
+        android:layout_width="56dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="110dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Panadol"
+        android:textColor="#2B3467"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/jd_pc"
+        app:layout_constraintTop_toBottomOf="@+id/im_panadol" />
+
+
+    <TextView
+        android:id="@+id/desc_pn"
+        android:layout_width="140dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/numans"
+        android:justificationMode="inter_word"
+        android:text="Panadol is a drug that is useful for relieving headaches, toothaches, muscle aches, nagging..."
+        android:textColor="#2B3467"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toEndOf="@+id/desc_pc"
+        app:layout_constraintTop_toBottomOf="@+id/jd_pn" />
+
+    <TextView
+        android:id="@+id/jd_obh"
+        android:layout_width="34dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="OBH"
+        android:textColor="#2B3467"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_obh" />
+
+    <TextView
+        android:id="@+id/desc_obh"
+        android:layout_width="140dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/numans"
+        android:justificationMode="inter_word"
+        android:text="OBH COMBI Cough with phlegm is a drug that is used to relieve cough with phlegm by working as an..."
+        android:textColor="#2B3467"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jd_obh" />
+
+
+    <TextView
+        android:id="@+id/jd_knd"
+        android:layout_width="48dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Konidin"
+        android:textColor="#2B3467"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/desc_knd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/jd_obh"
+        app:layout_constraintTop_toBottomOf="@+id/im_konidin" />
+
+    <TextView
+        android:id="@+id/desc_knd"
+        android:layout_width="140dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/numans"
+        android:justificationMode="inter_word"
+        android:text="KONIDIN TABLET is a drug used to relieve coughs associated with influenza, colds, bronchitis..."
+        android:textColor="#2B3467"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toEndOf="@+id/desc_obh"
+        app:layout_constraintTop_toBottomOf="@+id/jd_knd" />
+
+    <TextView
+        android:id="@+id/jd_ant"
+        android:layout_width="61dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="87dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Antangin"
+        android:textColor="#2B3467"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_antangin" />
+
+    <TextView
+        android:id="@+id/desc_ant"
+        android:layout_width="140dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/numans"
+        android:text="Antangin is a herbal product that is useful for treating colds, nausea, flatulence, fever, and..."
+        android:justificationMode="inter_word"
+        android:textColor="#2B3467"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jd_ant" />
+
+
+    <TextView
+        android:id="@+id/jd_amx"
+        android:layout_width="70dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="88dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Amoxicilin"
+        android:textColor="#2B3467"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/jd_ant"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/desc_amx"
+        android:layout_width="131dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/numans"
+        android:justificationMode="inter_word"
+        android:text="Amoxicillin is an antibiotic drug to treat diseases caused by bacterial infections..."
+        android:textColor="#2B3467"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toEndOf="@+id/desc_ant"
+        app:layout_constraintTop_toBottomOf="@+id/jd_amx" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
