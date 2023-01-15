@@ -11,12 +11,12 @@ public class MedicineItem {
     static String[] Headline = {
             "Paracetamol","Ambroxol","Antangin",
             "Fitkom"," Konidin","Scott's",
-            "Alpara", "Cefixime", "Plantacid"
+            "Cefixime", "Alpara", "Plantacid"
     };
 
     static String[] Subheadline = {
-            "Obat bebas", "Obat bebas", "Obat bebas",
-            "Obat bebas","Obat bebas","Obat bebas",
-            "Obat demam", "Obat batuk", "Obat stress"
+            "Obat bebas", "Obat keras", "Obat herbal",
+            "Produk Konsumen","Obat bebas","Obat bebas",
+            "Obat keras", "Obat bebas terbatas", "Obat Bebas"
     };
 }
