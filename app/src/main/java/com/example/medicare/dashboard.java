@@ -36,6 +36,37 @@ public class dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
+        //button User Profile
+        ImageButton userprofile=findViewById(R.id.photo_user);
+        userprofile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent userprofile= new Intent(dashboard.this,user_profile.class);
+                startActivity(userprofile);
+            }
+        });
+
+        //button User Profile 2
+        ImageButton userprofile2=findViewById(R.id.btn_profile2);
+        userprofile2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent userprofile2= new Intent(dashboard.this,user_profile.class);
+                startActivity(userprofile2);
+
+            }
+        });
+
+        //Artikel
+        ImageButton artikel=findViewById(R.id.btn_artikel);
+        artikel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent artikel= new Intent(dashboard.this,artikel.class);
+                startActivity(artikel);
+            }
+        });
+
         //button Shop Med
         ImageButton btShop = findViewById(R.id.shopmedicine);
         btShop.setOnClickListener(new View.OnClickListener() {

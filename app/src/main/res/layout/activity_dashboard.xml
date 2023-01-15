@@ -147,6 +147,97 @@
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </LinearLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/numans"
+        android:text="Promo Menarik"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.401" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523">
+
+        <ViewFlipper
+            android:layout_width="310dp"
+            android:layout_height="128dp"
+            android:fillViewport="true"
+            android:autoStart="true"
+            android:flipInterval="2000"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right">
+
+            <ImageView
+                android:layout_width="290dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:background="@drawable/banner_iklan1" />
+
+            <ImageView
+                android:layout_width="290dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:background="@drawable/banner_iklan2"/>
+
+            <ImageView
+                android:layout_width="290dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:background="@drawable/banner_iklan3"/>
+        </ViewFlipper>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/numans"
+        android:text="Baca Artikel Baru"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+    <ImageButton
+        android:id="@+id/btn_artikel"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:background="@drawable/artikel_dash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834" />
+
+
+
     <LinearLayout
         android:layout_width="70dp"
         android:layout_height="55dp"
@@ -160,14 +251,12 @@
         app:layout_constraintVertical_bias="0.976">
 
         <ImageButton
+            android:id="@+id/btn_profile2"
             android:layout_width="28dp"
             android:layout_height="28dp"
             android:layout_gravity="center"
-            android:background="@drawable/ic_profile"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
+            android:background="@drawable/ic_profile"/>
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="70dp"
         android:layout_height="55dp"
@@ -179,18 +268,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976">
-
         <ImageButton
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_marginTop="5dp"
             android:background="@drawable/ic_historybawah"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
+            android:layout_marginTop="5dp"/>
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout4"
         android:layout_width="60dp"
         android:layout_height="52dp"
         android:gravity="center"
@@ -207,8 +294,7 @@
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_marginRight="10dp"
-            android:background="@drawable/ic_home"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
+            android:background="@drawable/ic_home" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
