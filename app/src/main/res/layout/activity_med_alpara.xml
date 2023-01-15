@@ -84,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="	Paracetamol, phenylpropanolamine HCl, chlorpheniramine maleate, dan dextromethorphan HBr" />
+            android:text="Paracetamol, phenylpropanolamine HCl, chlorpheniramine maleate, dan dextromethorphan HBr" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -174,7 +174,7 @@
         android:text="Back"
         android:textColor="@color/white"
         android:textAllCaps="false"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:background="@drawable/ic_kotak3" />
 
