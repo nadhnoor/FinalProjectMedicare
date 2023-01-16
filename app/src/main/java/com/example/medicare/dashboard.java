@@ -48,7 +48,7 @@ public class dashboard extends AppCompatActivity {
         });
 
         //Button User Profile Navigation Bar
-        btn_userprofile=findViewById(R.id.btn_profile);
+        btn_userprofile=findViewById(R.id.btn_profile1);
         btn_userprofile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
