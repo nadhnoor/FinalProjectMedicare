@@ -24,7 +24,8 @@ public class dashboard extends AppCompatActivity {
 
     TextView fullname;
     TextView user_nameInGoogle;
-    CircleImageView userPhotoGoogle;
+    ImageButton btn_userprofile;
+    CircleImageView userPhotoGoogle, userprofile;
     GoogleSignInClient mGoogleSignInClient; //From Gradle Build Google Services Auth
     private View decorView;
 
@@ -37,7 +38,7 @@ public class dashboard extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
 
         //button User Profile
-        ImageButton userprofile=findViewById(R.id.photo_user);
+        userprofile = findViewById(R.id.photo_user);
         userprofile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,13 +47,13 @@ public class dashboard extends AppCompatActivity {
             }
         });
 
-        //button User Profile 2
-        ImageButton userprofile2=findViewById(R.id.btn_profile2);
-        userprofile2.setOnClickListener(new View.OnClickListener() {
+        //Button User Profile Navigation Bar
+        btn_userprofile=findViewById(R.id.btn_profile);
+        btn_userprofile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent userprofile2= new Intent(dashboard.this,user_profile.class);
-                startActivity(userprofile2);
+                Intent btn_userprofile= new Intent(dashboard.this,user_profile.class);
+                startActivity(btn_userprofile);
 
             }
         });
@@ -90,14 +91,10 @@ public class dashboard extends AppCompatActivity {
         //button History
 
 
-
-
-
         //GETTER-SETTER THE STRING DATA FROM DATABASE USER TO INPUT THE NAME USER
         fullname = findViewById(R.id.txtName);
         String user_name = getIntent().getStringExtra("name");
         fullname.setText(user_name);
-
 
 
         //BUTTON GOOGLE SIGNIN --> USE CREDENTIALS.JSON FROM FILE CONFIGURATION GOOGLE SIGNIN REPORT (GRADLEW)
