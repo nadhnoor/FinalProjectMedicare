@@ -28,6 +28,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/txtName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
@@ -73,7 +74,8 @@
             android:text="Name"
             android:textColor="#CF1A4D"
             android:textSize="17dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/txtNameProfile"
@@ -84,7 +86,8 @@
             android:fontFamily="@font/nunito_sans"
             android:hint="Jelita Inesya Alifia Nadhila"
             android:inputType="textPersonName"
-            android:paddingLeft="10dp" />
+            android:paddingLeft="10dp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
 
         <TextView
@@ -97,7 +100,8 @@
             android:text="Username"
             android:textColor="#CF1A4D"
             android:textSize="17dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/txtUsernameProfile"
@@ -108,7 +112,8 @@
             android:fontFamily="@font/nunito_sans"
             android:hint="JelitaInesFiaNoor"
             android:inputType="textPersonName"
-            android:paddingLeft="10dp" />
+            android:paddingLeft="10dp"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/EmailProfile"
@@ -130,7 +135,8 @@
             android:fontFamily="@font/nunito_sans"
             android:hint="jelitaines.alifianoor@gmail.com"
             android:inputType="textPersonName"
-            android:paddingLeft="10dp" />
+            android:paddingLeft="10dp"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/PhoneNumberProfile"
@@ -152,21 +158,23 @@
             android:fontFamily="@font/nunito_sans"
             android:hint="(+62) 81234567891"
             android:inputType="textPersonName"
-            android:paddingLeft="10dp" />
+            android:paddingLeft="10dp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
     </LinearLayout>
 
     <ImageButton
         android:id="@+id/btnLogoutProfile"
         android:layout_width="365dp"
         android:layout_height="40dp"
-        android:background="@drawable/ic_logout"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="35dp"
+        android:background="@drawable/ic_logout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.391"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.923" />
+        app:layout_constraintVertical_bias="0.923"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
