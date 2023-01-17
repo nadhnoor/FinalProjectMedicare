@@ -99,8 +99,13 @@ public class loginPage extends AppCompatActivity {
                                 });
                             }else{
                                 String user_name = userEntity.fullname;
+                                Global.fullname = userEntity.fullname;
+                                Global.email = userEntity.email;
+                                Global.phone = userEntity.phone;
+                                Global.username = userEntity.username;
                                 startActivity(new Intent(loginPage.this, dashboard.class).putExtra("name", user_name));
                             }
+
 
                         }
                     })).start();

@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class Description_Menu3 extends AppCompatActivity {
     ImageView imageView;
-    TextView judul, harga, per, hasil;
+    TextView judul, harga, per;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
