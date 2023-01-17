@@ -46,10 +46,10 @@ public class user_profile extends AppCompatActivity {
         Phone = findViewById(R.id.txtPhoneNumberProfile);
 
         //GETTER-SETTER THE STRING DATA FROM DATABASE USER TO INPUT THE DATA USER
-        String fullname = new UserEntity().getFullname();
-        String username = new UserEntity().getUsername();
-        String email = new UserEntity().getEmail();
-        String phone = new UserEntity().getPhone();
+        String fullname = Global.fullname;
+        String username = Global.username;
+        String email = Global.email;
+        String phone = Global.phone;
 
         Fullname.setText(fullname);
         Username.setText(username);
