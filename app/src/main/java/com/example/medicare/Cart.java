@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class Cart extends AppCompatActivity {
     ImageView imageView;
-    TextView mjudul, mharga, mper, mtotal, jumlahbrg, hasil;
+    TextView mjudul, mharga, mper, mtotal, jumlahbrg;
     String xjudul = "judul";
     String xharga = "harga";
     String xper = "per";
@@ -43,6 +43,10 @@ public class Cart extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent check = new Intent(Cart.this, CheckOut.class);
+                startActivity(check);
+                check.putExtra("jumlah", Integer.toString(mCounter));
+                check.putExtra("harga", harga);
+                check.putExtra("total", Integer.toString(mCounter * Integer.parseInt(harga) + ongkir));
                 startActivity(check);
             }
         });
@@ -91,7 +95,6 @@ public class Cart extends AppCompatActivity {
                 }
                 jumlahbrg.setText(Integer.toString(mCounter));
                 mtotal.setText(Integer.toString(mCounter*Integer.parseInt(harga) + ongkir));
-
             }
         });
     }
