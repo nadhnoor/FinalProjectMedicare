@@ -37,13 +37,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Deskripsi" />
+            android:text="Description" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Adalah obat yang bermanfaat untuk meringankan gejala flu, seperti demam, sakit kepala, "/>
+            android:text="Is a useful remedy to relieve flu symptoms, such as fever, headache," />
     </LinearLayout>
 
     <LinearLayout
@@ -58,13 +58,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Indikasi Umum" />
+            android:text="General Indications" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Meredakan gejala flu, seperti demam, sakit kepala, hidung tersumbat, dan bersin" />
+            android:text="Relieves flu symptoms, such as fever, headache, nasal congestion, and sneezing" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -78,13 +78,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Komposisi" />
+            android:text="Composition" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Paracetamol, phenylpropanolamine HCl, chlorpheniramine maleate, dan dextromethorphan HBr" />
+            android:text="Paracetamol, phenylpropanolamine HCl, chlorpheniramine maleate, and dextromethorphan HBr" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -98,13 +98,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Dosis" />
+            android:text="Dose" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Anak usia 6–12 tahun: 2 sendok takar (10 ml), 3 kali sehari" />
+            android:text="Children aged 6–12 years: 2 measuring spoons (10 ml), 3 times a day" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -118,13 +118,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Aturan Pakai" />
+            android:text="Rules of use" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Sesudah makan" />
+            android:text="Used after meals" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -138,13 +138,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Efek Samping" />
+            android:text="Side Effects" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Mengantuk, Insomnia, Gelisah" />
+            android:text="Drowsiness, Insomnia, Restlessness" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -158,13 +158,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Gologan Produk" />
+            android:text="Drug Classification" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Obat Bebas Terbatas (Biru)" />
+            android:text="Free limited medicine (Blue)" />
     </LinearLayout>
 
     <Button

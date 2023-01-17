@@ -37,13 +37,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Deskripsi" />
+            android:text="Description" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Merupakan obat herbal yang digunakan untuk membantu meredakan masuk angin, meriang, rasa mual, perut kembung, capek dan pusing serta melegakan tenggorokan"/>
+            android:text="Is an herbal remedy used to help relieve colds, fever, nausea, flatulence, fatigue and dizziness as well as relieve throat"/>
     </LinearLayout>
 
     <LinearLayout
@@ -58,13 +58,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Indikasi Umum" />
+            android:text="General Indication" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Membantu meredakan masuk angin, meriang, rasa mual, perut kembung, capek dan pusing serta melegakan tenggorokan" />
+            android:text="Helps relieve colds, fever, nausea, flatulence, fatigue and dizziness and relieve throat" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Komposisi" />
+            android:text="Composition" />
 
         <TextView
             android:layout_width="match_parent"
@@ -98,13 +98,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Dosis" />
+            android:text="Dose" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Dewasa: 2 tablet, diminum 3 kali per hari, bila perlu 4 tablet 2-3 x per hari" />
+            android:text="Adults: 2 tablets, taken 3 times per day, when necessary 4 tablets 2-3 x per day" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -118,13 +118,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Aturan Pakai" />
+            android:text="Rules of use" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Sesudah makan" />
+            android:text="Used after meal" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -138,13 +138,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Gologan Produk" />
+            android:text="Drug Classification" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Obat Herbal" />
+            android:text="Herbal Medicine" />
     </LinearLayout>
 
     <Button

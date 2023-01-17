@@ -37,13 +37,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Deskripsi" />
+            android:text="Description" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Merupakan obat yang mengadung Alumunium Hydroxide, Magnesium Hydroxide, Simethicone. Obat ini di gunakan untuk mengurangi gejala - gejala yang berhubungan dengan kelebihan asam lambung."/>
+            android:text="It is a drug that contains Aluminum Hydroxide, Magnesium Hydroxide, Simethicone. This drug is used to reduce symptoms associated with an excess of stomach acid."/>
     </LinearLayout>
 
     <LinearLayout
@@ -58,13 +58,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Indikasi Umum" />
+            android:text="General Indication" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Mengurangi asam lambung, tukak lambung, tukak duodenum" />
+            android:text="Reduces stomach acid, gastric ulcer, duodenal ulcer" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Komposisi" />
+            android:text="Compotition" />
 
         <TextView
             android:layout_width="match_parent"
@@ -98,13 +98,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Dosis" />
+            android:text="Dose" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="5-10 mL, diberikan 1 jam sesudah makan dan menjelang tidur malam. Pada kasus berat, berikan tiap 2 jam." />
+            android:text="5-10 mL, administered 1 hour after meals and before night bedtime. In severe cases, give every 2 hours." />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -118,13 +118,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Aturan Pakai" />
+            android:text="Rules of Use" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Berikan 1 jam sesudah makan dan menjelang tidur malam." />
+            android:text="Give 1 hour after meals and before going to bed at night." />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -138,13 +138,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Efek Samping" />
+            android:text="Side Effects" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Konstipasi, diare." />
+            android:text="Constipation, diarrhea." />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -158,13 +158,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Gologan Produk" />
+            android:text="Drug Classification" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Obat Bebas (Hijau)" />
+            android:text="Free medication (Green)" />
     </LinearLayout>
 
     <Button
