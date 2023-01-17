@@ -37,13 +37,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Deskripsi" />
+            android:text="Description" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Adalah obat yang mengandung guaifenesin, dextromethorphan HBr, chlopheniramine maleate. Konidin digunakan untuk membantu meringankan batuk, batuk berdahak (basah) maupun tidak berdahak (kering)."/>
+            android:text="Are drugs containing guaifenesin, dextromethorphan HBr, chlopheniramine maleate. Conidin is used to help relieve cough, cough with phlegm (wet) or no phlegm (dry)."/>
     </LinearLayout>
 
     <LinearLayout
@@ -58,13 +58,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Indikasi Umum" />
+            android:text="General Indication" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Meredakan batuk berdahak." />
+            android:text="Relieves cough with phlegm." />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -78,13 +78,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Komposisi" />
+            android:text="Composition" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Tiap sachet (7 ml) Konidin OBH mengandung Succus Liquiritiae 233.8mg, Ammonium Chloride 70mg, Alkohol 1.38%." />
+            android:text="Each sachet (7 ml) of Konidin OBH contains Succus Liquiritiae 233.8mg, Ammonium Chloride 70mg, Alcohol 1.38%." />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -98,13 +98,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Dosis" />
+            android:text="Dose" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Dewasa = 1-2 sachet 3-4x sehari, Anak-anak 6-12th = 1 sachet 3-4x sehari" />
+            android:text="Adults = 1-2 sachets 3-4x a day, Children 6-12th = 1 sachet 3-4x a day" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -118,13 +118,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Aturan Pakai" />
+            android:text="Rules of Use" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Sebelum atau sesudah makan" />
+            android:text="Consumed before or after meals" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -138,13 +138,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Efek Samping" />
+            android:text="Side Effects" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Ruam, Demam, Mengantuk" />
+            android:text="Rash, fever, drowsiness" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -158,13 +158,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Gologan Produk" />
+            android:text="Drug Classification" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Obat Bebas (Hijau)" />
+            android:text="Free medication (Green)" />
     </LinearLayout>
 
     <Button

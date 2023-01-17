@@ -37,13 +37,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Deskripsi" />
+            android:text="Description" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Merupakakan obat generik yang mengandung Cefixime 100 mg/5 ml. Cefixime adalah antibiotik golongan cephalosporin generasi ketiga."/>
+            android:text="It is a generic drug containing Cefixime 100 mg / 5 ml. Cefixime is a third-generation cephalosporin group antibiotic."/>
     </LinearLayout>
 
     <LinearLayout
@@ -58,13 +58,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Indikasi Umum" />
+            android:text="General Indication" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Infeksi saluran kemih tanpa komplikasi, otitis media, (radang rongga gendang telinga), faringitis dan tonsilitis, bronkhitis akut" />
+            android:text="Uncomplicated urinary tract infections, otitis media, (inflammation of the eardrum cavity), pharyngitis and tonsillitis, acute bronchitis" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -78,13 +78,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Komposisi" />
+            android:text="Composition" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Tiap 5 ml mengandung: Cefixime 100 mg" />
+            android:text="Every 5 ml contain: Cefixime 100 mg" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -98,13 +98,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Dosis" />
+            android:text="Dose" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Dewasa: 200-400 mg per hari" />
+            android:text="Adults: 200-400 mg per day" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -118,13 +118,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Aturan Pakai" />
+            android:text="Rules of use" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Dikonsumsi sebelum atau sesudah makan" />
+            android:text="Consumed before or after meals" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -138,13 +138,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Efek Samping" />
+            android:text="Side Effects" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="sesuai dengan masing-masing individu. " />
+            android:text="Depending to each individual." />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -158,13 +158,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Gologan Produk" />
+            android:text="Drug Classification" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Obat Keras (Merah)" />
+            android:text="Prescription drugs (Red)" />
     </LinearLayout>
 
     <Button

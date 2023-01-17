@@ -37,13 +37,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Deskripsi" />
+            android:text="Description" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Merupakan mukolitik yang bekerja dengan cara meningkatkan sekresi saluran pernapasan dengan meningkatkan produksi surfaktan paru dan merangsang aktivitas silia"/>
+            android:text="It is a mucolytic that works by increasing the secretion of the respiratory tract by increasing the production of pulmonary surfactants and stimulating the activity of cilia"/>
     </LinearLayout>
 
     <LinearLayout
@@ -58,13 +58,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Indikasi Umum" />
+            android:text="General Indications" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Sebagai sekretolitik pada gangguan saluran nafas akut dan kronis" />
+            android:text="As a secretolytic in acute and chronic airway disorders" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Komposisi" />
+            android:text="Composition" />
 
         <TextView
             android:layout_width="match_parent"
@@ -98,13 +98,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Dosis" />
+            android:text="Dose" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Dewasa dan anak >12 tahun: 30 mg, 2-3 kali sehari" />
+            android:text="Adults and children >12 years: 30 mg, 2-3 times a day" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -118,13 +118,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Aturan Pakai" />
+            android:text="Rules of Use" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Sesudah makan" />
+            android:text="Used after meals" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -138,13 +138,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Efek Samping" />
+            android:text="Side Effects" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Ssesuai dengan masing-masing individu." />
+            android:text="Depending to each individual." />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -158,13 +158,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Gologan Produk" />
+            android:text="Drug Classification" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Obat Keras (Merah)" />
+            android:text="Prescription drugs (Red)" />
     </LinearLayout>
 
     <Button

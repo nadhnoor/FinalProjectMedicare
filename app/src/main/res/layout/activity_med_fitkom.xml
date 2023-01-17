@@ -37,13 +37,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Deskripsi" />
+            android:text="Description" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Merupakan suplemen vitamin anak"/>
+            android:text="Is a children's vitamin supplement"/>
     </LinearLayout>
 
     <LinearLayout
@@ -58,13 +58,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Indikasi Umum" />
+            android:text="General Indication" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Untuk membantu memenuhi kebutuhan vitamin harian anak, serta membantu pertumbuhan dan menjaga kesehatan anak." />
+            android:text="To help meet the daily vitamin needs of children, as well as help growth and maintain children's health." />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -78,13 +78,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Komposisi" />
+            android:text="Composition" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Mengandung Vitamin A, C, B1, B3 dan B6 serta mengandung vitamin B2, B7, B12, D dan E" />
+            android:text="Contains Vitamins A, C, B1, B3 and B6 and contains vitamins B2, B7, B12, D and E" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -98,13 +98,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Dosis" />
+            android:text="Dose" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="1 sachet per hari" />
+            android:text="1 sachet per day" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -118,13 +118,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Aturan Pakai" />
+            android:text="Rules of Use" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Sebelum atau sesudah makan" />
+            android:text="Consumed before or after meals" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -138,7 +138,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Efek Samping" />
+            android:text="Side Effects" />
 
         <TextView
             android:layout_width="match_parent"
@@ -158,13 +158,13 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/blackMid"
-            android:text="Gologan Produk" />
+            android:text="Drugs Classification" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blackMid"
-            android:text="Produk Konsumen" />
+            android:text="Consumen Product" />
     </LinearLayout>
 
     <Button
