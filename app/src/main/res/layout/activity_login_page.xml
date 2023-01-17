@@ -122,6 +122,7 @@
             android:layout_marginTop="6dp"
             android:background="@drawable/btn_input_data"
             android:ems="10"
+            android:paddingLeft="10dp"
             android:hint="@string/username"
             android:inputType="textPersonName"
             tools:ignore="TouchTargetSizeCheck"/>
@@ -143,6 +144,7 @@
             android:layout_marginTop="6dp"
             android:background="@drawable/btn_input_data"
             android:ems="10"
+            android:paddingLeft="10dp"
             android:hint="@string/password"
             android:inputType="textPassword"
             tools:ignore="TouchTargetSizeCheck" />
