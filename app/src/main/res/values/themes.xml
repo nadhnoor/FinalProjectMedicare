@@ -1,8 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MEDICARE" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.MEDICARE" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimaryVariant">@color/purple_200</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -11,8 +11,8 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/design_default_color_primary</item>
-        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorPrimary">@color/pinkMed</item>
+        <item name="colorPrimaryDark">@color/pinkMed</item>
         <item name="colorAccent">@color/colorAccent</item>
 
     </style>
