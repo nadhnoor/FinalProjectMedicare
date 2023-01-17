@@ -27,7 +27,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class user_profile extends AppCompatActivity {
 
     ImageButton logout;
-    EditText user_nameInGoogle, EmailUserInGoogle;
+    TextView user_nameInGoogle, EmailUserInGoogle;
     TextView NameUserInGoogle;
     CircleImageView userPhotoGoogle;
     TextView Fullname, Username, Email, Phone;
