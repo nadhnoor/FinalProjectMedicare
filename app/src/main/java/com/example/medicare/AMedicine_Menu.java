@@ -20,8 +20,8 @@ public class AMedicine_Menu extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent back = new Intent(AMedicine_Menu.this, Dashboard.class);
-//                startActivity(back);
+                Intent back = new Intent(AMedicine_Menu.this, dashboard.class);
+                startActivity(back);
             }
         });
 
