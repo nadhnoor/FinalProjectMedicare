@@ -252,7 +252,7 @@
         app:layout_constraintVertical_bias="0.976">
 
         <ImageButton
-            android:id="@+id/btn_profile"
+            android:id="@+id/btn_profile1"
             android:layout_width="28dp"
             android:layout_height="28dp"
             android:layout_gravity="center"
