@@ -71,7 +71,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/amoxicilin" />
 
-
     <TextView
         android:id="@+id/desc_amx1"
         android:layout_width="342dp"
@@ -125,13 +124,38 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pack_amx" />
 
+
+    <TextView
+        android:id="@+id/Rp6"
+        android:layout_width="26dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="35dp"
+        android:text="Rp."
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt6" />
+
+    <TextView
+        android:id="@+id/harga6"
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:text="12000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Rp6"
+        app:layout_constraintTop_toBottomOf="@+id/opt6" />
+
     <TextView
         android:id="@+id/opt_amx"
-        android:layout_width="143dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="76dp"
-        android:text="Beli Sekali \n Rp12.000 per Box"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="67dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="220dp"
+        android:text="per Box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/harga6"
         app:layout_constraintTop_toBottomOf="@+id/opt6" />
 
 
@@ -151,6 +175,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="TouchTargetSizeCheck" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

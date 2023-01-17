@@ -7,7 +7,6 @@
     android:background="@drawable/ic_background1"
     tools:context=".Description_Menu1">
 
-
     <ImageButton
         android:id="@+id/back1"
         android:layout_width="60dp"
@@ -32,6 +31,7 @@
         android:src="@drawable/ic_ellipse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
 
     <ImageView
         android:id="@+id/pict_pc"
@@ -107,7 +107,7 @@
         android:layout_height="20dp"
         android:text="Box, 10 strips @ 10 caplets"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pack1" />
 
@@ -127,12 +127,38 @@
         app:layout_constraintTop_toBottomOf="@+id/pack_pc" />
 
     <TextView
-        android:id="@+id/opt_pc"
-        android:layout_width="143dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="76dp"
-        android:text="Beli Sekali \n Rp5.200 per Strip"
+        android:id="@+id/Rp1"
+        android:layout_width="26dp"
+        android:layout_height="19dp"
+        android:text="Rp."
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/harga1"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt1" />
+
+    <TextView
+        android:id="@+id/harga1"
+        android:layout_width="40dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="60dp"
+        android:text="5200"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt1" />
+
+    <TextView
+        android:id="@+id/opt_pc"
+        android:layout_width="67dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="220dp"
+        android:text="per Strip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/harga1"
         app:layout_constraintTop_toBottomOf="@+id/opt1" />
 
     <Button
@@ -151,5 +177,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="TouchTargetSizeCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

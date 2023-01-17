@@ -7,7 +7,6 @@
     android:background="@drawable/ic_background1"
     tools:context=".Description_Menu4">
 
-
     <ImageButton
         android:id="@+id/back4"
         android:layout_width="60dp"
@@ -71,6 +70,8 @@
         app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/konidin" />
+
+
     <TextView
         android:id="@+id/desc_knd1"
         android:layout_width="343dp"
@@ -125,12 +126,36 @@
         app:layout_constraintTop_toBottomOf="@+id/pack_knd" />
 
     <TextView
-        android:id="@+id/opt_knd"
-        android:layout_width="143dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="76dp"
-        android:text="Beli Sekali \n Rp2.000 per Sachets"
+        android:id="@+id/Rp4"
+        android:layout_width="26dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="35dp"
+        android:text="Rp."
+        android:textSize="15sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt4" />
+
+    <TextView
+        android:id="@+id/harga4"
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:text="2000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Rp4"
+        app:layout_constraintTop_toBottomOf="@+id/opt4" />
+
+    <TextView
+        android:id="@+id/opt_knd"
+        android:layout_width="67dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="220dp"
+        android:text="per Sachet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/harga4"
         app:layout_constraintTop_toBottomOf="@+id/opt4" />
 
     <Button

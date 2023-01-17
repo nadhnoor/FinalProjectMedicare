@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/ic_background1"
     tools:context=".Description_Menu2">
-
-
     <ImageButton
         android:id="@+id/back2"
         android:layout_width="60dp"
@@ -128,12 +126,36 @@
         app:layout_constraintTop_toBottomOf="@+id/pack_pn" />
 
     <TextView
-        android:id="@+id/opt_pn"
-        android:layout_width="143dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="76dp"
-        android:text="Beli Sekali \n Rp5.000 per Strip"
+        android:id="@+id/Rp2"
+        android:layout_width="26dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="35dp"
+        android:text="Rp."
+        android:textSize="15sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt2" />
+
+    <TextView
+        android:id="@+id/harga2"
+        android:layout_width="40dp"
+        android:layout_height="19dp"
+        android:text="5000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Rp2"
+        app:layout_constraintTop_toBottomOf="@+id/opt2" />
+
+    <TextView
+        android:id="@+id/opt_pn"
+        android:layout_width="67dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="220dp"
+        android:text="per Strip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/harga2"
         app:layout_constraintTop_toBottomOf="@+id/opt2" />
 
     <Button

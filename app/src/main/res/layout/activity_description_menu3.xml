@@ -7,6 +7,7 @@
     android:background="@drawable/ic_background1"
     tools:context=".Description_Menu3">
 
+
     <ImageButton
         android:id="@+id/back3"
         android:layout_width="60dp"
@@ -55,7 +56,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pict_obh" />
-
 
     <TextView
         android:id="@+id/desc3"
@@ -126,13 +126,38 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pack_obh" />
 
+
+    <TextView
+        android:id="@+id/Rp3"
+        android:layout_width="26dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="35dp"
+        android:text="Rp."
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt3" />
+
+    <TextView
+        android:id="@+id/harga3"
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:text="21800"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Rp3"
+        app:layout_constraintTop_toBottomOf="@+id/opt3" />
+
     <TextView
         android:id="@+id/opt_obh"
-        android:layout_width="143dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="76dp"
-        android:text="Beli Sekali \n Rp21.800 per Box"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="67dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="220dp"
+        android:text="per Box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/harga3"
         app:layout_constraintTop_toBottomOf="@+id/opt3" />
 
     <Button
@@ -151,8 +176,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="TouchTargetSizeCheck" />
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
