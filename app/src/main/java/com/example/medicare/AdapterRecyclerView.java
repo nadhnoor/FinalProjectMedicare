@@ -115,5 +115,4 @@ public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerVie
         dataItem.addAll(filterModel);
         notifyDataSetChanged();
     }
-
 }

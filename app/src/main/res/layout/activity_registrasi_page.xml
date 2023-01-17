@@ -59,6 +59,7 @@
             android:ems="10"
             android:hint="@string/fullname"
             android:inputType="textPersonName"
+            android:paddingLeft="10dp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
@@ -80,6 +81,7 @@
             android:ems="10"
             android:hint="@string/phone"
             android:inputType="phone"
+            android:paddingLeft="10dp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
@@ -100,6 +102,7 @@
             android:ems="10"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
@@ -121,6 +124,7 @@
             android:ems="10"
             android:hint="@string/username"
             android:inputType="textPersonName"
+            android:paddingLeft="10dp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
@@ -142,6 +146,7 @@
             android:ems="10"
             android:hint="@string/password"
             android:inputType="textPassword"
+            android:paddingLeft="10dp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
