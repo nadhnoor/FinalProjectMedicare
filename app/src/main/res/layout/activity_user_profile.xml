@@ -169,7 +169,7 @@
 
     <ImageButton
         android:id="@+id/btnLogoutProfile"
-        android:layout_width="349dp"
+        android:layout_width="360dp"
         android:layout_height="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
