@@ -30,21 +30,20 @@ public class user_profile extends AppCompatActivity {
     EditText user_nameInGoogle, EmailUserInGoogle;
     TextView NameUserInGoogle;
     CircleImageView userPhotoGoogle;
-    EditText full_name,user_name,email_user,phone_user;
+    TextView Fullname, Username, Email, Phone;
     GoogleSignInClient mGoogleSignInClient; //From Gradle Build Google Services Auth
     
 
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_profile);
         logout= findViewById(R.id.btnLogoutProfile);
-        full_name = findViewById(R.id.txtNameProfile);
-        user_name = findViewById(R.id.txtUsernameProfile);
-        email_user = findViewById(R.id.txtEmailProfile);
-        phone_user = findViewById(R.id.txtPhoneNumberProfile);
-
+        Fullname = findViewById(R.id.txtNameProfile);
+        Username = findViewById(R.id.txtUsernameProfile);
+        Email = findViewById(R.id.txtEmailProfile);
+        Phone = findViewById(R.id.txtPhoneNumberProfile);
 
         //GETTER-SETTER THE STRING DATA FROM DATABASE USER TO INPUT THE DATA USER
         String fullname = new UserEntity().getFullname();
@@ -52,10 +51,11 @@ public class user_profile extends AppCompatActivity {
         String email = new UserEntity().getEmail();
         String phone = new UserEntity().getPhone();
 
-        full_name.setText(fullname);
-        user_name.setText(username);
-        email_user.setText(email);
-        phone_user.setText(phone);
+        Fullname.setText(fullname);
+        Username.setText(username);
+        Email.setText(email);
+        Phone.setText(phone);
+
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
