@@ -15,81 +15,95 @@
         android:theme="@style/Theme.MEDICARE"
         tools:targetApi="31">
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:name=".CheckOut"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Cart"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".artikel"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".user_profile"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".ActivityMedParacetamol"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".ActivityMedPlantacid"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".ActivityMedKonidin"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".ActivityMedFitkom"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".ActivityMedCefixime"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".ActivityMedAntangin"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".ActivityMedAmbroxol"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".ActivityMedAlpara"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -102,89 +116,89 @@
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".Description_Menu6"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".Description_Menu5"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".Description_Menu4"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".Description_Menu3"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".Description_Menu2"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".Description_Menu1"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".AMedicine_Menu"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".dashboard"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".registrasiPage"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".loginPage"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".splashScreen"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -199,11 +213,9 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" />
-
     </application>
 
 </manifest>
