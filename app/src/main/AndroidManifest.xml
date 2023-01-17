@@ -15,6 +15,7 @@
         android:theme="@style/Theme.MEDICARE"
         tools:targetApi="31">
         <activity
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".CheckOut"
             android:exported="false">
             <meta-data
@@ -22,6 +23,7 @@
                 android:value="" />
         </activity>
         <activity
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".Cart"
             android:exported="false">
             <meta-data
