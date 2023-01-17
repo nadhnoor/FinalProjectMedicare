@@ -15,8 +15,8 @@ public class MedicineItem {
     };
 
     static String[] Subheadline = {
-            "Obat bebas", "Obat keras", "Obat herbal",
-            "Produk Konsumen","Obat bebas","Obat bebas",
-            "Obat keras", "Obat bebas terbatas", "Obat Bebas"
+            "Free medicines", "Prescription drugs", "Herbal medicine",
+            "Consumen Products","Free medicines","Free medicines",
+            "Prescription drugs", "Limited free medicine", "Free medicines"
     };
 }
