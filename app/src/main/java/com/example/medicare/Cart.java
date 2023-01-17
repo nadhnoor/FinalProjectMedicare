@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class Cart extends AppCompatActivity {
     ImageView imageView;
-    TextView mjudul, mharga, mper, mtotal, jumlahbrg, hasil;
+    TextView mjudul, mharga, mper, mtotal, jumlahbrg;
     String xjudul = "judul";
     String xharga = "harga";
     String xper = "per";
