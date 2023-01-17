@@ -77,11 +77,13 @@
             android:textStyle="bold"
             tools:ignore="TouchTargetSizeCheck" />
 
-        <EditText
+        <TextView
             android:id="@+id/txtNameProfile"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
-            android:layout_marginTop="6dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:orientation="vertical"
             android:background="@drawable/btn_data_profile"
             android:fontFamily="@font/nunito_sans"
             android:hint="Jelita Inesya Alifia Nadhila"
@@ -103,11 +105,12 @@
             android:textStyle="bold"
             tools:ignore="TouchTargetSizeCheck" />
 
-        <EditText
+        <TextView
             android:id="@+id/txtUsernameProfile"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
+            android:layout_height="35dp"
             android:layout_marginTop="6dp"
+            android:textSize="20dp"
             android:background="@drawable/btn_data_profile"
             android:fontFamily="@font/nunito_sans"
             android:hint="JelitaInesFiaNoor"
@@ -126,11 +129,12 @@
             android:textSize="17dp"
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/txtEmailProfile"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
+            android:layout_height="35dp"
             android:layout_marginTop="6dp"
+            android:textSize="20dp"
             android:background="@drawable/btn_data_profile"
             android:fontFamily="@font/nunito_sans"
             android:hint="jelitaines.alifianoor@gmail.com"
@@ -149,11 +153,12 @@
             android:textSize="17dp"
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/txtPhoneNumberProfile"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
+            android:layout_height="35dp"
             android:layout_marginTop="6dp"
+            android:textSize="20dp"
             android:background="@drawable/btn_data_profile"
             android:fontFamily="@font/nunito_sans"
             android:hint="(+62) 81234567891"
