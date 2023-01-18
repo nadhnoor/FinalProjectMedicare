@@ -8,13 +8,7 @@ import android.widget.TextView;
 
 public class CheckOut extends AppCompatActivity {
 
-
-    TextView fullname;
-    TextView phone;
-    TextView harga;
-    TextView jumlah;
-    TextView total;
-
+    TextView fullname,phone, harga, jumlah, total, jumlahharga, delivery, delivery1, notes;
     private View decorView;
 
     @Override
@@ -32,16 +26,29 @@ public class CheckOut extends AppCompatActivity {
         String phone_number = Global.phone;
         phone.setText(phone_number);
 
-/*        jumlah = findViewById(R.id.jumlah);
+        //jumlah barang
+        jumlah = findViewById(R.id.jumlahbarang);
         String mcount = bundle.getString("jumlah");
         jumlah.setText(mcount);
 
-        harga = findViewById(R.id.harga);
+        //jumlah harga per produk
+        harga = findViewById(R.id.subproduk);
         String value = bundle.getString("harga");
         harga.setText(value);
 
-        total = findViewById(R.id.total);
+        jumlahharga = findViewById(R.id.jumlahharga);
+        //total harga produk
+        //jumlahharga.setText(Integer.toString(jumlah*Integer.parseInt(harga.setText(value))));
+
+        delivery = findViewById(R.id.deliverypr);
+
+        total = findViewById(R.id.totpay);
         String total_harga = bundle.getString("total");
-        total.setText(total);*/
+        total.setText(total_harga);
+
+        delivery1 = findViewById(R.id.delivery1);
+        String total_semua = bundle.getString("total");
+        delivery1.setText((total_semua));
+
     }
 }
