@@ -39,15 +39,18 @@ public class CheckOut extends AppCompatActivity {
         String value = bundle.getString("harga");
         harga.setText(value);
 
-        jumlahharga = findViewById(R.id.jumlahharga);
         //total harga produk
-        //jumlahharga.setText(Integer.toString(jumlah*Integer.parseInt(harga.setText(value))));
-
-        delivery = findViewById(R.id.deliverypr);
-
-        total = findViewById(R.id.totpay);
+        jumlahharga = findViewById(R.id.jumlahharga);
         String total_harga = bundle.getString("total");
         total.setText(total_harga);
+
+        //ongkir
+        delivery = findViewById(R.id.deliverypr);
+
+        //totalsemua
+//        total = findViewById(R.id.totpay);
+//        total.setText(Integer.toString(total.setText(total_harga) + Integer.parseInt(delivery)));
+
 
         delivery1 = findViewById(R.id.delivery1);
         String total_semua = bundle.getString("total");
@@ -63,7 +66,9 @@ public class CheckOut extends AppCompatActivity {
             }
         });
 
-
+        //Notes
+        notes = findViewById(R.id.notes1);
+        String catatan = bundle.getString("notes");
 
     }
 }

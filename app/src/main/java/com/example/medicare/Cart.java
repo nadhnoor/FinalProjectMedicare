@@ -6,20 +6,22 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Cart extends AppCompatActivity {
     ImageView imageView;
-    TextView mjudul, mharga, mper, mtotal, jumlahbrg, tambah2;
+    TextView mjudul, mharga, mper, mtotal, jumlahbrg;
+    EditText mnote;
     String xjudul = "judul";
     String xharga = "harga";
     String xper = "per";
     String gambar = "gambar";
     Button kurang, tambah;
     private int mCounter = 1;
-    int ongkir = 10000;
+
 
     String judul,harga,per;
     @Override
@@ -37,16 +39,21 @@ public class Cart extends AppCompatActivity {
             }
         });
 
+        //put
+        mnote = findViewById(R.id.notes);
+
         //Button CheckOut
         Button checkout = findViewById(R.id.btCheckout);
         checkout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String cnotes = mnote.getText().toString();
                 Intent check = new Intent(Cart.this, CheckOut.class);
                 startActivity(check);
                 check.putExtra("jumlah", Integer.toString(mCounter));
                 check.putExtra("harga", harga);
-                check.putExtra("total", Integer.toString(mCounter * Integer.parseInt(harga) + ongkir));
+                check.putExtra("total", Integer.toString(mCounter * Integer.parseInt(harga)));
+                check.putExtra("notes",cnotes );
                 startActivity(check);
             }
         });
@@ -56,6 +63,7 @@ public class Cart extends AppCompatActivity {
         mharga = findViewById(R.id.harga);
         mper = findViewById(R.id.per);
         mtotal = findViewById(R.id.delivery);
+        mnote = findViewById(R.id.notes);
 
         Bundle bundle = getIntent().getExtras();
         judul = bundle.getString(xjudul);
@@ -66,11 +74,11 @@ public class Cart extends AppCompatActivity {
         mjudul.setText(judul);
         mharga.setText(harga);
         mper.setText(per);
+
         imageView.setImageResource(tampilgambar);
 
         //total harga
         mtotal.setText(Integer.toString(mCounter*Integer.parseInt(harga)));
-
 
         //tambah kurang
         tambah = findViewById(R.id.btn_tambah);
@@ -82,7 +90,7 @@ public class Cart extends AppCompatActivity {
             public void onClick(View view) {
                 mCounter ++;
                 jumlahbrg.setText(Integer.toString(mCounter));
-                mtotal.setText(Integer.toString(mCounter*Integer.parseInt(harga) + ongkir));
+                mtotal.setText(Integer.toString(mCounter*Integer.parseInt(harga)));
             }
         });
 
@@ -94,9 +102,11 @@ public class Cart extends AppCompatActivity {
                     mCounter=1;                 //nilai minimal
                 }
                 jumlahbrg.setText(Integer.toString(mCounter));
-                mtotal.setText(Integer.toString(mCounter*Integer.parseInt(harga) + ongkir));
+                mtotal.setText(Integer.toString(mCounter*Integer.parseInt(harga)));
             }
         });
+
+
     }
 
 }
