@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_chart"
+    android:background="@drawable/ic_background4"
     tools:context=".Cart">
 
     <ImageButton
@@ -131,19 +131,36 @@
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
+        android:id="@+id/rpp"
+        android:layout_width="49dp"
+        android:layout_height="32dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Rp."
+        android:textColor="#2B3467"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <TextView
         android:id="@+id/delivery"
-        android:layout_width="100dp"
-        android:layout_height="25dp"
+        android:layout_width="109dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="20dp"
         android:fontFamily="@font/nunito_sans"
         android:textColor="#2B3467"
         android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947" />
+        app:layout_constraintVertical_bias="0.954" />
 
     <RelativeLayout
         android:layout_width="130dp"
