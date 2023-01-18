@@ -8,7 +8,7 @@
     tools:context=".ActivityHistory">
 
     <ImageButton
-        android:id="@+id/back1"
+        android:id="@+id/btn_backhome"
         android:layout_width="60dp"
         android:layout_height="48dp"
         android:background="#00FFFFFF"
