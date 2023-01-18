@@ -41,8 +41,14 @@ public class SearchActivity extends AppCompatActivity {
 
         recyclerViewAdapter = new AdapterRecyclerView(this, data);
         recyclerView.setAdapter(recyclerViewAdapter);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
     }
 
+
+    //search
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
