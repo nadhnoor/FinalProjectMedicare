@@ -40,22 +40,39 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.038" />
 
+    <TextView
+        android:id="@+id/rupiah2"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/nunito_sans"
+        android:padding="5dp"
+        android:text="Rp."
+        android:textColor="#2B3467"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/medipay"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
 
     <TextView
         android:id="@+id/medipay"
         android:layout_width="194dp"
-        android:layout_height="28dp"
+        android:layout_height="34dp"
         android:fontFamily="@font/nunito_sans"
         android:padding="5dp"
+        android:text="100000"
         android:textColor="#2B3467"
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.663"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.126" />
+        app:layout_constraintVertical_bias="0.13" />
 
     <TextView
         android:id="@+id/namareceiver"
@@ -90,7 +107,57 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/price"
+        android:id="@+id/kali"
+        android:layout_width="32dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="156dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="x"
+        android:textAlignment="textEnd"
+        android:textColor="#2B3467"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/subproduk"
+        app:layout_constraintEnd_toStartOf="@+id/jumlahbarang"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/jumlahbarang"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="172dp"
+        android:fontFamily="@font/nunito_sans"
+        android:paddingRight="10sp"
+        android:textAlignment="textEnd"
+        android:textColor="#2B3467"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subproduk"
+        android:layout_width="74dp"
+        android:layout_height="28dp"
+        android:fontFamily="@font/nunito_sans"
+        android:paddingRight="10sp"
+        android:textAlignment="textEnd"
+        android:textColor="#2B3467"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jumlahbarang" />
+
+    <TextView
+        android:id="@+id/jumlahharga"
         android:layout_width="170dp"
         android:layout_height="21dp"
         android:fontFamily="@font/nunito_sans"
@@ -110,9 +177,11 @@
         android:id="@+id/deliverypr"
         android:layout_width="170dp"
         android:layout_height="21dp"
+        android:layout_marginBottom="140dp"
         android:fontFamily="@font/nunito_sans"
         android:paddingRight="10sp"
         android:textAlignment="textEnd"
+        android:text="10000"
         android:textColor="#2B3467"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -120,7 +189,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/price"
+        app:layout_constraintTop_toBottomOf="@+id/jumlahharga"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -142,6 +211,24 @@
         app:layout_constraintTop_toBottomOf="@+id/deliverypr"
         app:layout_constraintVertical_bias="0.0" />
 
+
+    <TextView
+        android:id="@+id/notes1"
+        android:layout_width="374dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="72dp"
+        android:fontFamily="@font/nunito_sans"
+        android:paddingRight="10sp"
+        android:textAlignment="textStart"
+        android:textColor="#2B3467"
+        android:textSize="14sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totpay"
+        app:layout_constraintVertical_bias="0.134" />
 
     <TextView
         android:id="@+id/delivery1"
