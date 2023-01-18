@@ -2,13 +2,16 @@ package com.example.medicare;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class CheckOut extends AppCompatActivity {
 
     TextView fullname,phone, harga, jumlah, total, jumlahharga, delivery, delivery1, notes;
+    Button pay ;
     private View decorView;
 
     @Override
@@ -49,6 +52,17 @@ public class CheckOut extends AppCompatActivity {
         delivery1 = findViewById(R.id.delivery1);
         String total_semua = bundle.getString("total");
         delivery1.setText((total_semua));
+
+        //Button Pay
+        pay = findViewById(R.id.btPay);
+        pay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent pay = new Intent(CheckOut.this,PaymentSuccessful.class);
+                startActivity(pay);
+            }
+        });
+
 
     }
 }
