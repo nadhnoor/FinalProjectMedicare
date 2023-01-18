@@ -43,7 +43,7 @@ public class CheckOut extends AppCompatActivity {
         //total harga produk
         jumlahharga = findViewById(R.id.jumlahharga);
         String total_harga = bundle.getString("total");
-        total.setText(total_harga);
+        jumlahharga.setText(total_harga);
 
         //ongkir
         delivery = findViewById(R.id.deliverypr);
@@ -54,8 +54,8 @@ public class CheckOut extends AppCompatActivity {
         total.setText(Integer.toString(Integer.parseInt(total_harga)+ ongkir));
 
         delivery1 = findViewById(R.id.delivery1);
-        String total_semua = bundle.getString("total");
-        delivery1.setText((total_semua));
+        delivery1.setText(Integer.toString(Integer.parseInt(total_harga)+ ongkir));
+
 
         //Button Pay
         pay = findViewById(R.id.btPay);
@@ -70,6 +70,6 @@ public class CheckOut extends AppCompatActivity {
         //Notes
         notes = findViewById(R.id.notes1);
         String catatan = bundle.getString("notes");
-
+        notes.setText(catatan);
     }
 }
