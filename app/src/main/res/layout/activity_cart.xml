@@ -44,35 +44,37 @@
     <TextView
         android:id="@+id/rupiah1"
         android:layout_width="27dp"
-        android:layout_height="26dp"
+        android:layout_height="28dp"
         android:fontFamily="@font/nunito_sans"
-        android:text="Rp."
-        android:textColor="#2B3467"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/harga"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
-
-    <TextView
-        android:id="@+id/harga"
-        android:layout_width="74dp"
-        android:layout_height="33dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="15dp"
-        android:fontFamily="@font/nunito_sans"
+        android:text="Rp"
         android:textColor="#2B3467"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.254" />
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="80dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="2590000"
+        android:textColor="#2B3467"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251" />
 
     <ImageView
         android:id="@+id/gambarmasuk"
@@ -135,7 +137,7 @@
         android:layout_width="49dp"
         android:layout_height="32dp"
         android:fontFamily="@font/nunito_sans"
-        android:text="Rp."
+        android:text="Rp"
         android:textColor="#2B3467"
         android:textSize="17sp"
         android:textStyle="bold"

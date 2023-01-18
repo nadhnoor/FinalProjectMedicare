@@ -10,7 +10,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ActivityHistory extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

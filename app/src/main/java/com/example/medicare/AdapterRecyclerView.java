@@ -86,7 +86,7 @@ public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerVie
                 context.startActivity(new Intent(context, ActivityMedKonidin.class));
             }
 
-            if (dataItem.get(position).getName().equals("Scott's")){
+            if (dataItem.get(position).getName().equals("Scotts")){
                 context.startActivity(new Intent(context, ActivityMedScotts.class));
             }
 
