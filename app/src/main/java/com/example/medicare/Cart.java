@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class Cart extends AppCompatActivity {
     ImageView imageView;
-    TextView mjudul, mharga, mper, mtotal, jumlahbrg;
+    TextView mjudul, mharga, mper, mtotal, jumlahbrg, tambah2;
     String xjudul = "judul";
     String xharga = "harga";
     String xper = "per";
@@ -69,7 +69,7 @@ public class Cart extends AppCompatActivity {
         imageView.setImageResource(tampilgambar);
 
         //total harga
-        mtotal.setText(Integer.toString(mCounter*Integer.parseInt(harga) + ongkir));
+        mtotal.setText(Integer.toString(mCounter*Integer.parseInt(harga)));
 
 
         //tambah kurang
