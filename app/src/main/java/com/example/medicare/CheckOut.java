@@ -34,7 +34,7 @@ public class CheckOut extends AppCompatActivity {
         //GETTER-SETTER THE STRING DATA FROM DATABASE USER TO INPUT THE NAME USER
         Bundle bundle = getIntent().getExtras();
         fullname = findViewById(R.id.namareceiver);
-        String user_name = Global.username;
+        String user_name = Global.fullname;
         fullname.setText(user_name);
 
         phone = findViewById(R.id.no_receiver);
