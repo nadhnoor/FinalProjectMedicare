@@ -6,12 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class CheckOut extends AppCompatActivity {
 
     TextView fullname,phone, harga, jumlah, total, jumlahharga, delivery, delivery1, notes;
-    Button pay ;
+    Button pay;
+    ImageButton back;
     int ongkir = 10000;
     private View decorView;
 
@@ -19,6 +21,15 @@ public class CheckOut extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_check_out);
+
+        back=findViewById(R.id.backc);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent back = new Intent(CheckOut.this, Cart.class);
+                startActivity(back);
+            }
+        });
 
         //GETTER-SETTER THE STRING DATA FROM DATABASE USER TO INPUT THE NAME USER
         Bundle bundle = getIntent().getExtras();

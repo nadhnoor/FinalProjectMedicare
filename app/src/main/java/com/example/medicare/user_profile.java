@@ -28,7 +28,7 @@ public class user_profile extends AppCompatActivity {
 
     ImageButton logout;
     TextView user_nameInGoogle, EmailUserInGoogle;
-    TextView NameUserInGoogle;
+    TextView NameUserInGoogle, Name;
     CircleImageView userPhotoGoogle;
     TextView Fullname, Username, Email, Phone;
     GoogleSignInClient mGoogleSignInClient; //From Gradle Build Google Services Auth
@@ -44,17 +44,21 @@ public class user_profile extends AppCompatActivity {
         Username = findViewById(R.id.txtUsernameProfile);
         Email = findViewById(R.id.txtEmailProfile);
         Phone = findViewById(R.id.txtPhoneNumberProfile);
+        Name = findViewById(R.id.txtName);
 
         //GETTER-SETTER THE STRING DATA FROM DATABASE USER TO INPUT THE DATA USER
         String fullname = Global.fullname;
         String username = Global.username;
         String email = Global.email;
         String phone = Global.phone;
+        String name = Global.fullname;
+
 
         Fullname.setText(fullname);
         Username.setText(username);
         Email.setText(email);
         Phone.setText(phone);
+        Name.setText(name);
 
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)

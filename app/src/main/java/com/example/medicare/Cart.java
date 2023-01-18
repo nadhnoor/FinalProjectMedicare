@@ -20,6 +20,7 @@ public class Cart extends AppCompatActivity {
     String xper = "per";
     String gambar = "gambar";
     Button kurang, tambah;
+    ImageButton back;
     private int mCounter = 1;
 
 
