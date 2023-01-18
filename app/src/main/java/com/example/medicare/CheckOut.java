@@ -12,6 +12,7 @@ public class CheckOut extends AppCompatActivity {
 
     TextView fullname,phone, harga, jumlah, total, jumlahharga, delivery, delivery1, notes;
     Button pay ;
+    int ongkir = 10000;
     private View decorView;
 
     @Override
@@ -47,10 +48,10 @@ public class CheckOut extends AppCompatActivity {
         //ongkir
         delivery = findViewById(R.id.deliverypr);
 
-        //totalsemua
-//        total = findViewById(R.id.totpay);
-//        total.setText(Integer.toString(total.setText(total_harga) + Integer.parseInt(delivery)));
 
+        //totalsemua
+        total = findViewById(R.id.totpay);
+        total.setText(Integer.toString(Integer.parseInt(total_harga)+ ongkir));
 
         delivery1 = findViewById(R.id.delivery1);
         String total_semua = bundle.getString("total");
