@@ -10,7 +10,7 @@ public class MedicineItem {
 
     static String[] Headline = {
             "Paracetamol","Ambroxol","Antangin",
-            "Fitkom"," Konidin","Scott's",
+            "Fitkom","Konidin","Scott's",
             "Cefixime", "Alpara", "Plantacid"
     };
 
