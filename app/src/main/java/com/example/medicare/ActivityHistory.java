@@ -10,20 +10,17 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ActivityHistory extends AppCompatActivity {
-
-    ImageButton back;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_history);
-        //  Button Back
-        ImageButton btBack1 = findViewById(R.id.back1);
-        btBack1.setOnClickListener(new View.OnClickListener() {
+
+        ImageButton backhome = findViewById(R.id.btn_backhome);
+        backhome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent back1 = new Intent(ActivityHistory.this, dashboard.class);
-                startActivity(back1);
+                Intent intent = new Intent(ActivityHistory.this, dashboard.class);
+                startActivity(intent);
             }
         });
     }
