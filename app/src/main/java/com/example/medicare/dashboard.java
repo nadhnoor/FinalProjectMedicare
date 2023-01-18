@@ -89,6 +89,24 @@ public class dashboard extends AppCompatActivity {
         });
 
         //button History
+        ImageButton btHist = findViewById(R.id.history);
+        btHist.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(dashboard.this, ActivityHistory.class);
+                startActivity(intent);
+            }
+        });
+
+        //button History Navigation Bar
+        ImageButton btHist2 = findViewById(R.id.history2);
+        btHist2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(dashboard.this, ActivityHistory.class);
+                startActivity(intent);
+            }
+        });
 
 
         //GETTER-SETTER THE STRING DATA FROM DATABASE USER TO INPUT THE NAME USER
